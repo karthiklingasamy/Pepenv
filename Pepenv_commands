@@ -70,7 +70,7 @@ Note: This will only remove the venv now everything we need to recreate the envi
 Note: pipfile should be thate in the
 
 # Step 10: How to find the venv path
->pipenv --venv
+>C:\Karthik\roster_simulator>pipenv --venv
 
 
 
