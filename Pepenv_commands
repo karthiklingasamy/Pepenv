@@ -24,6 +24,17 @@ It is TOML file. It contains different section. With key and value pair
 $ pipenv shell
 Launching subshell in virtual environment…
 
+(roster_simulator-7Jh00s2y) C:\Karthik\roster_simulator>
+
+# step 5: To shee which python is used and to see which venv is used
+> python
+> import sys
+> sys.executable
+
+
+
+
+
 
 
 
