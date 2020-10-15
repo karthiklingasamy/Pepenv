@@ -34,6 +34,12 @@ Launching subshell in virtual environment…
 # Step 6: To deactivate the environment
 >exit
 
+# Step 7: To tun command without activate the venv
+>pipenv run python
+>import sys
+>sys.executable
+
+
 
 
 
