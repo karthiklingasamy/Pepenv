@@ -48,6 +48,13 @@ Launching subshell in virtual environment…
 # Step 8: How to generate requirement.txt or piplock file
 >pipenv lock -r
 
+# How to install pytest packages only in dev environment
+>pipenv install pytest --dev
+
+# How to uninstall packages
+>pipenv uninstall requests
+
+
 
 
 
