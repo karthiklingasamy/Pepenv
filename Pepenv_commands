@@ -1,5 +1,21 @@
-# To Install Pepenv
+# Step 1 :To Install Pepenv
+> pip install pipenv
 
->pip install pipenv
+# Step 2 : navigate to your project folder (RosterProject)
+
+# Step 3: Install the required packages for you project
+> pipenv install requests
+
+Creating a virtualenv for this project…
+Pipfile: C:\Karthik\roster_simulator\Pipfile
+Using C:/Users/lkart/AppData/Local/Programs/Python/Python39/python.exe (3.9.0) 
+Virtualenv location: C:\Users\lkart\.virtualenvs\roster_simulator-7Jh00s2y
+
+
+
+
+
+
+
 
 
