@@ -39,6 +39,20 @@ Launching subshell in virtual environment…
 >import sys
 >sys.executable
 
+# To run scripts without activate out project
+> pipenv run python New_RMS_DeploymentRoster_api_Dev.py
+
+# Step 8: How to install multiple package at a time using requirement.txt
+> pipenv install -r ../snippets/requirements.txt
+
+# Step 8: How to generate requirement.txt or piplock file
+>pipenv lock -r
+
+
+
+
+
+
 
 
 
