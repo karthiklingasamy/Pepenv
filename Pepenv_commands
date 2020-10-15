@@ -6,10 +6,24 @@
 # Step 3: Install the required packages for you project
 > pipenv install requests
 
+Note:Below are the important details to note after run the above command
+
 Creating a virtualenv for this project…
 Pipfile: C:\Karthik\roster_simulator\Pipfile
 Using C:/Users/lkart/AppData/Local/Programs/Python/Python39/python.exe (3.9.0) 
 Virtualenv location: C:\Users\lkart\.virtualenvs\roster_simulator-7Jh00s2y
+Creating a Pipfile for this project…
+Pipfile.lock not found, creating…
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+pip file:
+It is TOML file. It contains different section. With key and value pair
+
+# step 4: Activate virtual Environment
+$ pipenv shell
+Launching subshell in virtual environment…
+
 
 
 
