@@ -54,6 +54,23 @@ Launching subshell in virtual environment…
 # How to uninstall packages
 >pipenv uninstall requests
 
+# Step 9: How to create new virtual enviroment using python 3.8 (current venv is used python 3.9)
+Note:Before run the below cmd go to pipfile and change the python version and save the file
+> pipenv --python 3.8
+
+# How to remove the environment completely and recreate from scratch using pip file. if you pip file and environment is not in sync better remove the environment and create new enviroment
+Note: Now i want to use python 3.9 so go to pip fle and change the python version and save
+
+To remove venv:
+C:\Karthik\roster_simulator>pipenv --rm
+
+Note: This will only remove the venv now everything we need to recreate the environment is in our pip file. so to create the environment that match in our pip file is run the below command
+
+>C:\Karthik\roster_simulator>pipenv install
+Note: pipfile should be thate in the
+
+
+
 
 
 
