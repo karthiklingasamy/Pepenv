@@ -72,6 +72,19 @@ Note: pipfile should be thate in the
 # Step 10: How to find the venv path
 >C:\Karthik\roster_simulator>pipenv --venv
 
+# Step 11: To check known security issue in 3rd party package
+
+lkart@DESKTOP-LS8DL0F MINGW64 /c/Karthik/roster_simulator
+$ pipenv check
+Checking PEP 508 requirements…
+Passed!
+Checking installed package safety…
+38107: bleach <=3.1.3 resolved (3.1.3 installed)!
+The ``bleach.clean`` behavior parsing style attributes in bleach before 3.1.4 could result in a regular expression denial of service (ReDoS). Calls to ``bleach.clean`` with an allowed tag with an allowed ``style`` attribute were vulnerable to ReDoS. For example, ``bleach.clean(..., attributes={'a': ['style']})``.  This issue was confirmed in Bleach versions v3.1.3, v3.1.2, v3.1.1, v3.1.0, v3.0.0, v2.1.4, and v2.1.3. Earlier versions used a similar regular expression and should be considered vulnerable too.
+
+# To fix the security issue (Video Time: 22:00) for more details
+Install latest latest package 
+
 
 
 
