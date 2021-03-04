@@ -20,6 +20,10 @@ Alternatively, run a command inside the virtualenv with pipenv run.
 pip file:
 It is TOML file. It contains different section. With key and value pair
 
+# To install additional package
+go to command path C:\Users\lkart\.virtualenvs\roster_simulator-7Jh00s2y\Scripts
+>pip install Appium-Python-Client
+
 # step 4: Activate virtual Environment
 $ pipenv shell
 Launching subshell in virtual environment…
